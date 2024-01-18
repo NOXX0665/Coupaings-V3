@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/solo_hover.png
+  orientation = top-centered
+  x = -50
+  width = 100
+  action = addtexture
+  actionid = cab30843-208f-4b55-9939-0953fa6a38e01693425569223
+  y = 14
+  height = 39
+}
+

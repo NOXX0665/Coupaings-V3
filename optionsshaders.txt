@@ -1,0 +1,19 @@
+#Mon Jan 15 19:58:44 CET 2024
+handDepthMul=0.125
+TexMinFilB=0
+oldLighting=default
+TexMagFilN=0
+tweakBlockDamage=false
+TexMagFilS=0
+cloudShadow=false
+shaderPack=Sildur's+Vibrant+Shaders+v1.41+Extreme-VL.zip
+TexMinFilN=0
+specularMapEnabled=true
+renderResMul=1.0
+normalMapEnabled=true
+oldHandLight=default
+TexMinFilS=0
+shadowResMul=1.0
+shadowClipFrustrum=true
+TexMagFilB=0
+antialiasingLevel=0

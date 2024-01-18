@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;datapack_info%btnaction_splitter_fm%
+  x = 5
+  width = 100
+  action = addbutton
+  actionid = f73d4698-6a1a-4f82-a57a-c6840d9fc02c1705342455169
+  y = 246
+  description = Voir plus d'informations
+  label = Coupaings {"placeholder":"webtext","values":{"link":"https://pastebin.com/raw/VNuPU8ku"}}
+  height = 20
+}
+

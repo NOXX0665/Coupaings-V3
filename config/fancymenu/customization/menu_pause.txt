@@ -1,0 +1,27 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Jeu en Pause
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/title.png
+  orientation = top-centered
+  x = -74
+  width = 149
+  action = addtexture
+  actionid = f6e01f62-d88c-4f85-a489-968b28f753061693483504203
+  y = 11
+  height = 37
+}
+

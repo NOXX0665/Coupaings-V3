@@ -1,0 +1,3 @@
+identifier = datapack_info
+title = Debug Information
+allowesc = true

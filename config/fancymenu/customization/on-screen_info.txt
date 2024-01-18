@@ -1,0 +1,34 @@
+type = menu
+
+customization-meta {
+  identifier = %fancymenu:universal_layout%
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = false
+  scale = 0.75
+  source = Coupaings V.{"placeholder":"webtext","values":{"link":"https://pastebin.com/raw/VNuPU8ku"}}%n%RAM : {"placeholder":"usedram"}/{"placeholder":"maxram"}MB ({"placeholder":"percentram"}%)%n%{"placeholder":"realtimeday"}/{"placeholder":"realtimemonth"}/{"placeholder":"realtimeyear"}%n%{"placeholder":"realtimehour"}:{"placeholder":"realtimeminute"}:{"placeholder":"realtimesecond"}%n%{"placeholder":"playername"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 3
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4c4ef99e-cf00-47b9-aa39-a02179d43f991705344310195
+  y = -41
+  alignment = left
+  height = 38
+}
+

@@ -1,0 +1,89 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 105
+  width = 270
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = bc4b44c1-8909-4a79-9a28-2c53a072b5131693423565508
+  y = 102
+  height = 66
+}
+
+customization {
+  custom_color_hex = #191919
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = aea3f1ce-37f3-4c02-940d-e0cd18a53f0c1693423565522
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 105
+  width = 270
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 7c964375-7078-4fe8-b0d7-43b5b8bb64021693423565522
+  y = 219
+  height = 10
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = v.7
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = cb42f719-075a-496e-af41-bc96ed42007c1693773559297
+  y = -12
+  alignment = left
+  height = 12
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"percentram"} % RAM Used%n%{"placeholder":"totalmods"} mods%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -99
+  width = 98
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 7d52c535-e553-47b9-a708-8b611f7268531693773821642
+  y = -22
+  alignment = right
+  height = 22
+}
+

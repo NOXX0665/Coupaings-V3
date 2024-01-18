@@ -1,0 +1,251 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2023-11-30 21:51:58
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.client.player.LocalPlayer.m_6117_()" because "this.f_91074_" is null
+	at net.minecraft.client.Minecraft.m_91279_(Minecraft.java:1934) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:travelerstitles.mixins.json:MinecraftClientTickMixin,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinMinecraft,pl:mixin:APP:mixins.blur.json:MixinMinecraftClient,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:securitycraft.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1768) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:travelerstitles.mixins.json:MinecraftClientTickMixin,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinMinecraft,pl:mixin:APP:mixins.blur.json:MixinMinecraftClient,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:securitycraft.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1078) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:travelerstitles.mixins.json:MinecraftClientTickMixin,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinMinecraft,pl:mixin:APP:mixins.blur.json:MixinMinecraftClient,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:securitycraft.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:travelerstitles.mixins.json:MinecraftClientTickMixin,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinMinecraft,pl:mixin:APP:mixins.blur.json:MixinMinecraftClient,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:securitycraft.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.3.0.jar%23101!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.Minecraft.m_91279_(Minecraft.java:1934) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:travelerstitles.mixins.json:MinecraftClientTickMixin,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinMinecraft,pl:mixin:APP:mixins.blur.json:MixinMinecraftClient,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:securitycraft.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, Mod Resources, Supplementaries Generated Pack, loadmyresources.hiddenpack, quark-emote-pack, FreshAnimations_v1.8.zip, guiretextures-darkmode-1.7.6.zip, black_icons
+	Recovery: Yes
+	Recovery reason: java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 0
+	at java.base/java.util.ArrayList.add(ArrayList.java:455)
+	at java.base/java.util.ArrayList.add(ArrayList.java:467)
+	at TRANSFORMER/quark@3.4-409/vazkii.quark.content.tweaks.client.emote.CustomEmoteIconResourcePack.m_6105_(CustomEmoteIconResourcePack.java:103)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.AbstractPackResources.m_7211_(AbstractPackResources.java:46)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.resources.PackResourcesAdapterV4.m_7211_(PackResourcesAdapterV4.java:144)
+	at TRANSFORMER/net.optifine/net.optifine.Config.getDefiningResourcePack(Config.java:1336)
+	at TRANSFORMER/net.optifine/net.optifine.Config.hasResource(Config.java:1225)
+	at TRANSFORMER/net.optifine/net.optifine.EmissiveTextures.checkEmissive(EmissiveTextures.java:276)
+	at TRANSFORMER/net.optifine/net.optifine.EmissiveTextures.updateIcons(EmissiveTextures.java:258)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.renderer.texture.TextureAtlas.m_118307_(TextureAtlas.java:281)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.resources.TextureAtlasHolder.m_5944_(TextureAtlasHolder.java:37)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.resources.TextureAtlasHolder.m_5944_(TextureAtlasHolder.java:13)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 6 more
+
+Stacktrace:
+	at net.minecraft.client.ResourceLoadStateTracker.m_168562_(ResourceLoadStateTracker.java:49) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2287) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:travelerstitles.mixins.json:MinecraftClientTickMixin,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinMinecraft,pl:mixin:APP:mixins.blur.json:MixinMinecraftClient,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:securitycraft.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:722) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:travelerstitles.mixins.json:MinecraftClientTickMixin,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.IMixinMinecraft,pl:mixin:APP:drippyloadingscreen.mixin.json:client.MixinMinecraft,pl:mixin:APP:mixins.blur.json:MixinMinecraftClient,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:securitycraft.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23299!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.3.0.jar%23101!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 2431833264 bytes (2319 MiB) / 4664066048 bytes (4448 MiB) up to 7885291520 bytes (7520 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5600H with Radeon Graphics         
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.29
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 512.00
+	Graphics card #0 deviceId: 0x1638
+	Graphics card #0 versionInfo: DriverVersion=31.0.12044.3
+	Graphics card #1 name: NVIDIA GeForce RTX 3060 Laptop GPU
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x2520
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.3713
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 28339.68
+	Virtual memory used (MB): 25439.00
+	Swap memory total (MB): 20820.48
+	Swap memory used (MB): 2402.23
+	JVM Flags: 9 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx7517M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	Launched Version: COUPAINGS V3 - The Space Update
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2 GL version 3.2.0 NVIDIA 537.13, NVIDIA Corporation
+	Window size: 1920x1080
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x AMD Ryzen 5 5600H with Radeon Graphics 
+	OptiFine Version: OptiFine_1.19.2_HD_U_I1
+	OptiFine Build: 20221213-150857
+	Render Distance Chunks: 16
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: Sildur's+Vibrant+Shaders+v1.41+Extreme-VL.zip
+	OpenGlVersion: 3.2.0 NVIDIA 537.13
+	OpenGlRenderer: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.3.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.3.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.3.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.3.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.3.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar OptiFine TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		elytraslot-forge-6.1.1+1.19.2.jar                 |Elytra Slot                   |elytraslot                    |6.1.1+1.19.2        |PROCESS_IM|Manifest: NOSIGNATURE
+		ftb-essentials-forge-1902.3.3-build.100.jar       |FTB Essentials                |ftbessentials                 |1902.3.3-build.100  |PROCESS_IM|Manifest: NOSIGNATURE
+		supermartijn642configlib-1.1.8-forge-mc1.19.jar   |SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.8               |PROCESS_IM|Manifest: NOSIGNATURE
+		satin-forge-1.19.2+1.12.2.jar                     |Satin Forge                   |satin                         |1.19.2+1.12.2       |PROCESS_IM|Manifest: NOSIGNATURE
+		watermedia-1.3.35.jar                             |WaterMedia                    |watermedia                    |1.3.35              |PROCESS_IM|Manifest: NOSIGNATURE
+		botarium-forge-1.19.2-1.8.2.jar                   |Botarium                      |botarium                      |1.8.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		jei-1.19.2-forge-11.6.0.1018.jar                  |Just Enough Items             |jei                           |11.6.0.1018         |PROCESS_IM|Manifest: NOSIGNATURE
+		callablehorses-1.19.2-1.2.2.3.jar                 |Callable Horses               |callablehorses                |1.2.2.3             |VALIDATE  |Manifest: 8c:03:ac:7d:21:62:65:e2:83:91:f3:22:57:99:ed:75:78:1e:db:de:03:99:ef:53:3b:59:95:18:01:bc:84:a9
+		Windster's+Flags+1.0.jar                          |Windster's Flags              |windster_flags                |1.0.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		libraryferret-forge-1.19.2-4.0.0.jar              |Library ferret                |libraryferret                 |4.0.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		caelus-forge-1.19.2-3.0.0.6.jar                   |Caelus API                    |caelus                        |1.19.2-3.0.0.6      |VALIDATE  |Manifest: NOSIGNATURE
+		InsaneLib-1.7.5-mc1.19.2.jar                      |InsaneLib                     |insanelib                     |1.7.5               |PROCESS_IM|Manifest: NOSIGNATURE
+		carpeted-1.19.2-1.4.jar                           |Carpeted                      |carpeted                      |1.19.2-1.4          |PROCESS_IM|Manifest: NOSIGNATURE
+		Mo'Enchantments-1.19.3-1.6.2.jar                  |Mo' Enchantments              |enchantments_plus             |1.6.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		BuildersDelight-1.19.2-v.1.1.jar                  |Builder's Delight             |buildersdelight               |1.1                 |PROCESS_IM|Manifest: NOSIGNATURE
+		journeymap-1.19.2-5.9.7-forge.jar                 |Journeymap                    |journeymap                    |5.9.7               |PROCESS_IM|Manifest: NOSIGNATURE
+		citadel-2.1.4-1.19.jar                            |Citadel                       |citadel                       |2.1.4               |PROCESS_IM|Manifest: NOSIGNATURE
+		alexsmobs-1.21.1.jar                              |Alex's Mobs                   |alexsmobs                     |1.21.1              |VALIDATE  |Manifest: NOSIGNATURE
+		TravelersBackpack-1.19.2-8.2.30.jar               |Traveler's Backpack           |travelersbackpack             |8.2.30              |PROCESS_IM|Manifest: NOSIGNATURE
+		StrawStatues-v4.0.12-1.19.2-Forge.jar             |Straw Statues                 |strawstatues                  |4.0.12              |VALIDATE  |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		YungsApi-1.19.2-Forge-3.8.9.jar                   |YUNG's API                    |yungsapi                      |1.19.2-Forge-3.8.9  |PROCESS_IM|Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.9.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.9        |PROCESS_IM|Manifest: NOSIGNATURE
+		OPF-15.jar                                        |Online Picture Frame 2        |opf                           |15                  |PROCESS_IM|Manifest: NOSIGNATURE
+		YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar   |YUNG's Better Desert Temples  |betterdeserttemples           |1.19.2-Forge-2.2.2  |PROCESS_IM|Manifest: NOSIGNATURE
+		YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar|YUNG's Better Nether Fortresse|betterfortresses              |1.19.2-Forge-1.0.6  |PROCESS_IM|Manifest: NOSIGNATURE
+		cloth-config-8.3.103-forge.jar                    |Cloth Config v8 API           |cloth_config                  |8.3.103             |PROCESS_IM|Manifest: NOSIGNATURE
+		forge-1.19.2-43.3.0-universal.jar                 |Forge                         |forge                         |43.3.0              |VALIDATE  |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		TravelersTitles-1.19.2-Forge-3.1.2.jar            |Traveler's Titles             |travelerstitles               |1.19.2-Forge-3.1.2  |PROCESS_IM|Manifest: NOSIGNATURE
+		tl_skin_cape_forge_1.19_1.19.2-1.30.jar           |TLSkinCape                    |tlskincape                    |1.30                |PROCESS_IM|Manifest: ef:fe:e7:59:91:bb:3a:06:c1:94:f4:f3:9c:3e:26:69:47:fa:2e:c5:53:d3:38:21:65:cc:04:75:e7:61:19:40
+		konkrete_forge_1.6.1_MC_1.19-1.19.2.jar           |Konkrete                      |konkrete                      |1.6.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		ironchest-1.19.2-14.2.7.jar                       |Iron Chests                   |ironchest                     |1.19.2-14.2.7       |PROCESS_IM|Manifest: NOSIGNATURE
+		corpse-1.19.2-1.0.0.jar                           |Corpse                        |corpse                        |1.19.2-1.0.0        |VALIDATE  |Manifest: NOSIGNATURE
+		client-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |PROCESS_IM|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		Shields+-1.3.2-mc1.19.2.jar                       |ShieldsPlus                   |shieldsplus                   |1.3.2-mc1.19.2      |PROCESS_IM|Manifest: NOSIGNATURE
+		voicechat-forge-1.19.2-2.4.24.jar                 |Simple Voice Chat             |voicechat                     |1.19.2-2.4.24       |VALIDATE  |Manifest: NOSIGNATURE
+		soundphysics-forge-1.19.2-1.0.18.jar              |Sound Physics Remastered      |sound_physics_remastered      |1.19.2-1.0.18       |PROCESS_IM|Manifest: NOSIGNATURE
+		LittleFrames_FORGE_v1.2.0_mc1.19.2.jar            |LittleFrames                  |littleframes                  |1.2.0               |VALIDATE  |Manifest: NOSIGNATURE
+		flagsmod_1.19.2_v1.jar                            |flag                          |flag                          |1.0.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		TerraBlender-forge-1.19.2-2.0.1.166.jar           |TerraBlender                  |terrablender                  |2.0.1.166           |PROCESS_IM|Manifest: NOSIGNATURE
+		moonlight-1.19.2-2.2.44-forge.jar                 |Moonlight Library             |moonlight                     |1.19.2-2.2.44       |PROCESS_IM|Manifest: NOSIGNATURE
+		blur-forge-3.0.1.jar                              |Blur (Forge)                  |blur                          |3.0.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.9.4_mc1.19.2.jar            |CreativeCore                  |creativecore                  |2.9.3               |VALIDATE  |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.12-forge-mc1.19.2.jar  |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.12              |PROCESS_IM|Manifest: NOSIGNATURE
+		YungsBridges-1.19.2-Forge-3.1.0.jar               |YUNG's Bridges                |yungsbridges                  |1.19.2-Forge-3.1.0  |PROCESS_IM|Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.19.2-1.0.20.jar         |Resourcefulconfig             |resourcefulconfig             |1.0.20              |PROCESS_IM|Manifest: NOSIGNATURE
+		curios-forge-1.19.2-5.1.4.1.jar                   |Curios API                    |curios                        |1.19.2-5.1.4.1      |VALIDATE  |Manifest: NOSIGNATURE
+		flywheel-forge-1.19.2-0.6.9-18.jar                |Flywheel                      |flywheel                      |0.6.9-18            |PROCESS_IM|Manifest: NOSIGNATURE
+		create-1.19.2-0.5.1.c.jar                         |Create                        |create                        |0.5.1.c             |VALIDATE  |Manifest: NOSIGNATURE
+		Patchouli-1.19.2-77.jar                           |Patchouli                     |patchouli                     |1.19.2-77           |PROCESS_IM|Manifest: NOSIGNATURE
+		AutoRegLib-1.8.2-55.jar                           |AutoRegLib                    |autoreglib                    |1.8.2-55            |PROCESS_IM|Manifest: NOSIGNATURE
+		Quark-3.4-409.jar                                 |Quark                         |quark                         |3.4-409             |VALIDATE  |Manifest: NOSIGNATURE
+		supplementaries-1.19.2-2.3.24.jar                 |Supplementaries               |supplementaries               |1.19.2-2.3.24       |PROCESS_IM|Manifest: NOSIGNATURE
+		[1.19.2]+SecurityCraft+v1.9.6.1.jar               |SecurityCraft                 |securitycraft                 |1.9.6.1             |PROCESS_IM|Manifest: NOSIGNATURE
+		StorageDrawers-1.19-11.1.2.jar                    |Storage Drawers               |storagedrawers                |11.1.2              |PROCESS_IM|Manifest: NOSIGNATURE
+		bettervillage-forge-1.19.2-3.2.0.jar              |Better village                |bettervillage                 |3.1.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		countrysflags-1.3.1-1.19-1.19.2.jar               |Countrys Flags                |countrysflags                 |1.3.1-1.19-1.19.2   |PROCESS_IM|Manifest: NOSIGNATURE
+		resourcefullib-forge-1.19.2-1.1.24.jar            |Resourceful Lib               |resourcefullib                |1.1.24              |PROCESS_IM|Manifest: NOSIGNATURE
+		fancymenu_forge_2.14.9_MC_1.19-1.19.2.jar         |FancyMenu                     |fancymenu                     |2.14.9              |PROCESS_IM|Manifest: NOSIGNATURE
+		drippyloadingscreen_forge_2.2.2_MC_1.19.1-1.19.2.j|Drippy Loading Screen         |drippyloadingscreen           |2.2.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		cfm-7.0.0-pre35-1.19.2.jar                        |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre35         |PROCESS_IM|Manifest: NOSIGNATURE
+		architectury-6.5.85-forge.jar                     |Architectury                  |architectury                  |6.5.85              |PROCESS_IM|Manifest: NOSIGNATURE
+		ftb-library-forge-1902.4.1-build.236.jar          |FTB Library                   |ftblibrary                    |1902.4.1-build.236  |PROCESS_IM|Manifest: NOSIGNATURE
+		doapi-1.1.0b.jar                                  |Lets Do Api                   |doapi                         |1.1.0b              |PROCESS_IM|Manifest: NOSIGNATURE
+		letsdo-vinery-forge-1.3.9.jar                     |Vinery                        |vinery                        |1.3.9               |PROCESS_IM|Manifest: NOSIGNATURE
+		PuzzlesLib-v4.4.3-1.19.2-Forge.jar                |Puzzles Lib                   |puzzleslib                    |4.4.3               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.4.jar  |Oh The Biomes You'll Go       |byg                           |2.0.1.4             |VALIDATE  |Manifest: NOSIGNATURE
+		CorgiLib-forge-1.19.2-1.0.0.34.jar                |CorgiLib                      |corgilib                      |1.0.0.34            |PROCESS_IM|Manifest: NOSIGNATURE
+		DynamicTrees-1.19.2-1.1.0-BETA9.jar               |Dynamic Trees                 |dynamictrees                  |1.19.2-1.1.0-BETA9  |PROCESS_IM|Manifest: NOSIGNATURE
+		DynamicTreesQuark-1.19.2-2.4.0-Beta1.jar          |Dynamic Trees for Quark       |dtquark                       |1.19.2-2.4.0-Beta1  |PROCESS_IM|Manifest: NOSIGNATURE
+		geckolib-forge-1.19-3.1.40.jar                    |GeckoLib                      |geckolib3                     |3.1.40              |PROCESS_IM|Manifest: NOSIGNATURE
+		loadmyresources_forge_1.0.4_MC_1.19-1.19.2.jar    |Load My Resources             |loadmyresources               |1.0.4               |PROCESS_IM|Manifest: NOSIGNATURE
+		effortlessbuilding-1.19.2-3.4-all.jar             |Effortless Building           |effortlessbuilding            |3.4                 |PROCESS_IM|Manifest: NOSIGNATURE
+		xptome-1.19-2.1.7.jar                             |XP Tome                       |xpbook                        |2.1.7               |PROCESS_IM|Manifest: NOSIGNATURE
+		ad_astra-forge-1.19.2-1.12.7.jar                  |Ad Astra                      |ad_astra                      |1.12.7              |VALIDATE  |Manifest: NOSIGNATURE
+	Crash Report UUID: da9fc8b6-30e9-449a-a979-dfff996bc45b
+	Flywheel Backend: Off
+	FML: 43.3
+	Forge: net.minecraftforge:43.3.0

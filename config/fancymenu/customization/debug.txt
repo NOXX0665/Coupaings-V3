@@ -1,0 +1,67 @@
+type = menu
+
+customization-meta {
+  identifier = datapack_info
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.5
+  source = Debug Information
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5320d117-6f9f-499a-b117-67f0361fd8891705342781464
+  y = 22
+  alignment = centered
+  height = 17
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = Coupaings - The Space Update%n%%n%Version : {"placeholder":"webtext","values":{"link":"https://pastebin.com/raw/VNuPU8ku"}}%n%%n%RAM Usage : {"placeholder":"usedram"}/{"placeholder":"maxram"} ({"placeholder":"percentram"})%n%%n%Screen size : {"placeholder":"guiwidth"}x{"placeholder":"guiheight"}%n%%n%GUI Scale : {"placeholder":"guiscale"}%n%%n%Player : {"placeholder":"playername"}%n%UUID : {"placeholder":"playeruuid"}%n%%n%Time : {"placeholder":"realtimeday"} {"placeholder":"realtimemonth"} {"placeholder":"realtimeyear"} {"placeholder":"realtimehour"}:{"placeholder":"realtimeminute"}:{"placeholder":"realtimesecond"}%n%%n%Mods : {"placeholder":"loadedmods"}/{"placeholder":"totalmods"}%n%%n%Minecraft Version : {"placeholder":"mcversion"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -240
+  width = 479
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ae1f295d-887b-4275-8474-e1852e40c41f1705342848359
+  y = -94
+  alignment = centered
+  height = 188
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://patchnotes.edihamiti.eu.org%btnaction_splitter_fm%
+  x = -50
+  width = 100
+  action = addbutton
+  actionid = 97f68e56-3bbb-4aa7-9c15-ca32d9bb686d1705343180719
+  y = -31
+  label = Patchnotes
+  height = 20
+}
+

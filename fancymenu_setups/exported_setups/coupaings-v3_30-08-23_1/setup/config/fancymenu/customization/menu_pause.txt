@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Jeu en Pause
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  advanced_height = 29
+  path = resources/solo_hover.png
+  orientation = top-centered
+  x = -37
+  width = 75
+  action = addtexture
+  actionid = e9a2ce2f-147f-4167-a28b-e47e9fc519261693425812146
+  y = 18
+  advanced_width = 75
+  height = 29
+}
+
