@@ -24,3 +24,6 @@ net.minecraft.client.gui.screens.WinScreen {
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+

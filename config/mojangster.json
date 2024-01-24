@@ -1,0 +1,18 @@
+{
+  "useCustomColor": true,
+  "bgColor": #212121,
+  "barColor": 16777215,
+  "barOutlineColor": #212121,
+  "enableBarBackground": false,
+  "barBackgroundColor": 15675965,
+  "logoColor": 16777215,
+  "disableLogoColorTint": false,
+  "playSound": true,
+  "soundFrame": 0,
+  "soundName": "default.wav",
+  "dontAnimate": false,
+  "animationSpeed": 41,
+  "hideLoadingBar": false,
+  "animName": "default.png",
+  "staticName": "default-static.png"
+}

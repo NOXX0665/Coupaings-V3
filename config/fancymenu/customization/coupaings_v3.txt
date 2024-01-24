@@ -26,7 +26,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
-  x = 297
+  x = 295
   action = movebutton
   y = -33
 }
@@ -336,12 +336,12 @@ customization {
 customization {
   path = resources/title.png
   orientation = top-centered
-  x = -74
-  width = 149
+  x = -57
+  width = 114
   action = addtexture
   actionid = f833341d-971f-4032-85cb-87273f8bcd161693405277542
-  y = 13
-  height = 37
+  y = 12
+  height = 28
 }
 
 customization {
@@ -392,7 +392,7 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = e101d2a0-112b-4e0f-b590-fff32ae20a321693417228779
-  x = 14
+  x = 13
   width = 87
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 7a6abb5d-9538-46d6-81d3-58c82c228d911693405366811
@@ -445,26 +445,26 @@ customization {
   path = resources/edi-studios.png
   orientation = element
   orientation_element = f0d6e7b7-402e-4fc9-a83b-ffd1bfa89b8f1693426348426
-  x = 0
+  x = 1
   width = 5
   action = addtexture
   actionid = 6e8f0e55-fbba-4f2d-b1eb-6682413ffcb31693426676822
   y = 12
   [loading_requirement:fancymenu_loading_requirement_is_server_online][requirement_mode:if_not][req_id:77486af7-db1e-4d9b-a509-000fe55049091693426751898] = coupaingsv3.aternos.me
-  height = 79
+  height = 81
 }
 
 customization {
   path = resources/bouton_hover.png
   orientation = element
   orientation_element = f0d6e7b7-402e-4fc9-a83b-ffd1bfa89b8f1693426348426
-  x = 0
+  x = 1
   width = 5
   action = addtexture
   actionid = 4301dc1b-b5b4-4030-85de-9664f99e222a1693426873219
-  y = 9
+  y = 12
   [loading_requirement:fancymenu_loading_requirement_is_server_online][requirement_mode:if][req_id:03931aac-adc4-4088-909d-4dd18fad164d1693426891070] = coupaingsv3.aternos.me
-  height = 85
+  height = 81
 }
 
 customization {
@@ -475,7 +475,7 @@ customization {
   width = 15
   action = addtexture
   actionid = ac637edf-d210-4a38-ba68-f7d2b64524601693428293975
-  y = 25
+  y = 27
   height = 33
 }
 
@@ -483,24 +483,12 @@ customization {
   path = resources/icones/monde.png
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 6
+  x = 31
   width = 23
   action = addtexture
   actionid = 1fe6c542-da39-4f7d-a90f-1f9960f860d81693428376808
-  y = 40
+  y = 6
   height = 15
-}
-
-customization {
-  path = resources/multijoueur.png
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 5
-  width = 50
-  action = addtexture
-  actionid = 05438600-31a5-44cb-842f-f40597763e791693427347596
-  y = 53
-  height = 7
 }
 
 customization {
@@ -543,11 +531,11 @@ customization {
   path = resources/icones/villageois.png
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 27
+  x = 4
   width = 30
   action = addtexture
   actionid = 909c5296-ef3c-4fe9-a509-7d2582f71d551693428549925
-  y = 4
+  y = 37
   height = 18
 }
 
@@ -567,11 +555,40 @@ customization {
   path = resources/icones/internet.png
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
-  x = 18
-  width = 25
+  x = 16
+  width = 29
   action = addtexture
   actionid = 78c67ef5-14fa-4a77-b61c-be56209820bf1693428324727
-  y = 15
-  height = 25
+  y = 17
+  height = 29
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  rotation = 20.0
+  scale = 1.0
+  refresh = false
+  bouncing = false
+  vanilla-like = false
+  orientation_element = 38b434de-a349-4c6c-b29d-8211f2e741d61693404248303
+  x = 62
+  actionid = 02776a8c-1b94-4027-b283-a6686fa173021705694762839
+  action = addsplash
+  y = 39
+  text = NON FONCTIONNEL
+}
+
+customization {
+  path = resources/multijoueur.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 5
+  width = 50
+  action = addtexture
+  actionid = 05438600-31a5-44cb-842f-f40597763e791693427347596
+  y = 53
+  height = 7
 }
 

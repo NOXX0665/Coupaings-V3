@@ -1,9 +1,9 @@
-[21:22:39] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[21:22:39] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[21:22:39] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[21:22:39] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[21:22:39] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:22:39] [Render thread/INFO] [?] Version: JourneyMap 1.19.2-5.9.7, built with forge 1.19.2-43.2.0
+[14:08:17] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[14:08:17] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[14:08:17] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[14:08:17] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[14:08:17] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[14:08:17] [Render thread/INFO] [?] Version: JourneyMap 1.19.2-5.9.7, built with forge 1.19.2-43.2.0
 forge: 43.3.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -17,13 +17,47 @@ Features:
 	MapBiome : singleplayer = true , multiplayer = true
 MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-83, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.7, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.7, zoomLevel=2, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=night, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.7, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.7, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.7, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.7, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[21:22:40] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 522,73ms
-[21:23:05] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[21:23:05] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS%20V3%20-%20The%20Space%20Update\mods\journeymap-1.19.2-5.9.7-forge.jar\assets\journeymap\theme\flat
-[21:23:05] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[21:23:05] [Render thread/INFO] [JourneymapClient] OptiFine detected.
-[21:23:05] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 110,55ms
+[14:08:17] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 351,88ms
+[14:08:28] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[14:08:28] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS%20V3%20-%20The%20Space%20Update\mods\journeymap-1.19.2-5.9.7-forge.jar\assets\journeymap\theme\flat
+[14:08:28] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[14:08:28] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 28,79ms
+[14:09:11] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[14:09:28] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[14:09:28] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[14:09:28] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\sp\Conseil Des Factions\waypoints
+[14:09:28] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\sp\Conseil Des Factions\overworld. Memory: 4096MB total, 1189MB free 
+[14:09:30] [JM-task-4/WARN] [BaseRenderer] Bad block at 6,0,3. Total bad blocks: 1
+[14:09:31] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[14:13:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[14:36:13] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[14:36:13] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[15:06:50] [IO-Worker-179/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [-2, 37]
+[15:32:49] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\mp\offline\minecraft:overworld
+[15:34:07] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:34:18] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:34:18] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\sp\Nouveau monde (1)\waypoints
+[15:34:18] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\sp\Nouveau monde (1)\ad_astra~moon. Memory: 4096MB total, 468MB free 
+[15:34:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/corrupted_lunarian.png
+[15:34:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[15:41:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/cleric_lunarian.png
+[15:41:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/lunarian.png
+[15:41:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/leatherworker_lunarian.png
+[15:41:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/mason_lunarian.png
+[15:41:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/toolsmith_lunarian.png
+[15:41:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/librarian_lunarian.png
+[15:41:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/lunarian/weaponsmith_lunarian.png
+[16:19:08] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\mp\offline\ad_astra:moon
+[16:20:02] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[16:20:14] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[16:20:14] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\sp\Conseil Des Factions\waypoints
+[16:20:14] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\sp\Conseil Des Factions\overworld. Memory: 4096MB total, 517MB free 
+[16:46:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[16:49:34] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[16:49:35] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[17:19:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[17:32:43] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\ediha\AppData\Roaming\.minecraft\versions\COUPAINGS V3 - The Space Update\journeymap\data\mp\offline\minecraft:overworld

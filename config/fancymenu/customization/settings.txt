@@ -5,6 +5,7 @@ customization-meta {
   randomgroup = 1
   renderorder = foreground
   randommode = false
+  custom_menu_title = 
   randomonlyfirsttime = false
 }
 
@@ -14,17 +15,278 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  identifier = %id=505154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345232%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=345232%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = opengui;datapack_info%btnaction_splitter_fm%
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=345280%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=345280%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -42
+}
+
+customization {
+  identifier = %id=345154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/slider.png
+  backgroundnormal = resources/slider.png
+}
+
+customization {
+  identifier = %id=505232%
+  orientation = mid-centered
   x = 5
-  width = 100
-  action = addbutton
-  actionid = f73d4698-6a1a-4f82-a57a-c6840d9fc02c1705342455169
-  y = 246
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=505232%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=505280%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=505280%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 73
+}
+
+customization {
+  identifier = %id=400334%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=345208%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345256%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=345256%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=505208%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -42
+}
+
+customization {
+  identifier = %id=505208%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=505256%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=505256%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui;datapack_info%btnaction_splitter_fm%
+  backgroundhovered = resources/bouton_hover.png
   description = Voir plus d'informations
   label = Coupaings {"placeholder":"webtext","values":{"link":"https://pastebin.com/raw/VNuPU8ku"}}
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:400334
+  x = 62
+  width = 75
+  action = addbutton
+  actionid = f73d4698-6a1a-4f82-a57a-c6840d9fc02c1705342455169
+  y = 22
+  backgroundnormal = resources/bouton_normal.png
+  height = 12
+}
+
+customization {
+  path = resources/icones/options/controls.png
+  orientation = element
+  orientation_element = vanillabtn:505232
+  x = 0
+  width = 20
+  action = addtexture
+  actionid = 7d71c15c-a820-4cfa-9671-6d549cc208a01705692571806
+  y = 0
   height = 20
+}
+
+customization {
+  path = resources/icones/options/language.png
+  orientation = element
+  orientation_element = vanillabtn:345256
+  x = 0
+  width = 20
+  action = addtexture
+  actionid = 60cac8dc-fce7-4d31-a385-a666815dbdc51705692612561
+  y = 0
+  height = 20
+}
+
+customization {
+  path = resources/icones/options/chat.png
+  orientation = element
+  orientation_element = vanillabtn:505256
+  x = 0
+  width = 20
+  action = addtexture
+  actionid = 5a3e73ed-604d-4e47-9718-8f8d59f73c861705692632398
+  y = 0
+  height = 20
+}
+
+customization {
+  path = resources/icones/options/accessibility.png
+  orientation = element
+  orientation_element = vanillabtn:505280
+  x = 0
+  width = 20
+  action = addtexture
+  actionid = b50e37ca-8247-42f3-a3ed-9f21b5d470311705692654696
+  y = 0
+  height = 20
+}
+
+customization {
+  path = resources/icones/options/ressource_packs.png
+  orientation = element
+  orientation_element = vanillabtn:345280
+  x = 0
+  width = 20
+  action = addtexture
+  actionid = 84c8d9da-50de-448f-818f-77db61c7c36f1705692687544
+  y = 0
+  height = 20
+}
+
+customization {
+  path = resources/icones/options/video_settings.png
+  orientation = element
+  orientation_element = vanillabtn:345232
+  x = 0
+  width = 20
+  action = addtexture
+  actionid = 00fed0c1-1326-4981-9578-475d82b0c4561705692727686
+  y = 0
+  height = 20
+}
+
+customization {
+  path = resources/icones/options/sounds.png
+  orientation = element
+  orientation_element = vanillabtn:505208
+  x = 0
+  width = 20
+  action = addtexture
+  actionid = 767b9498-4ad1-4511-9248-495ce02933921705692757164
+  y = 0
+  height = 20
+}
+
+customization {
+  path = resources/titles/options.png
+  orientation = top-centered
+  x = -51
+  width = 102
+  action = addtexture
+  actionid = 5c725567-d97f-486f-b140-be5dece6c91a1706108367076
+  y = 31
+  height = 25
 }
 

@@ -14,25 +14,6 @@ customization {
 }
 
 customization {
-  orientation = top-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.5
-  source = Debug Information
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -100
-  width = 200
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 5320d117-6f9f-499a-b117-67f0361fd8891705342781464
-  y = 22
-  alignment = centered
-  height = 17
-}
-
-customization {
   orientation = mid-centered
   enable_scrolling = true
   shadow = false

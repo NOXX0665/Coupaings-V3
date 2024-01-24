@@ -1,0 +1,3 @@
+identifier = join_server
+title = Rejoindre le serveur
+allowesc = true

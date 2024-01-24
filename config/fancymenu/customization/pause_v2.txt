@@ -1,0 +1,541 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-left
+  x = 45
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  width = 75
+  action = resizebutton
+  height = 95
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  orientation = bottom-right
+  x = -75
+  action = movebutton
+  y = -45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=398354%
+  orientation = mid-left
+  x = 340
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=398354%
+  width = 24
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=398354%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  orientation = bottom-right
+  x = -50
+  action = movebutton
+  y = -45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=374306%
+  orientation = bottom-left
+  x = 50
+  action = movebutton
+  y = -45
+}
+
+customization {
+  identifier = %id=374306%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = 35
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  width = 60
+  action = resizebutton
+  height = 77
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -30
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 60
+  action = resizebutton
+  height = 77
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-left
+  x = 369
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  width = 60
+  action = resizebutton
+  height = 77
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = mid-left
+  x = 340
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  width = 24
+  action = resizebutton
+  height = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = mid-left
+  x = 340
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  width = 24
+  action = resizebutton
+  height = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  identifier = %id=374330%
+  orientation = bottom-left
+  x = 25
+  action = movebutton
+  y = -45
+}
+
+customization {
+  identifier = %id=374330%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/bouton_hover.png
+  backgroundnormal = resources/bouton_normal.png
+}
+
+customization {
+  path = resources/titles/pause.png
+  orientation = top-centered
+  x = -51
+  width = 102
+  action = addtexture
+  actionid = f1c0a61a-2fd1-4743-86b0-4a33feddf9851706108453489
+  y = 31
+  height = 25
+}
+
+customization {
+  path = resources/icones/pause/resume.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 4
+  width = 66
+  action = addtexture
+  actionid = a18c6433-483a-4292-b539-4c6220185aa81706108961879
+  y = 18
+  height = 36
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Back to Game
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  width = 75
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e28e0528-0592-4d8c-9502-155c3c700ea41706109025767
+  y = 66
+  alignment = centered
+  height = 12
+}
+
+customization {
+  path = resources/icones/pause/bug.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_report_bugs_button
+  x = 3
+  width = 14
+  action = addtexture
+  actionid = 54aa8d14-4c9e-488b-b3e1-ed72307128e61706109125452
+  y = 1
+  height = 17
+}
+
+customization {
+  path = resources/icones/pause/feedback.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_feedback_button
+  x = 2
+  width = 16
+  action = addtexture
+  actionid = 1d0886b3-f727-4071-a4eb-bcf53728544d1706109246502
+  y = 2
+  height = 16
+}
+
+customization {
+  path = resources/icones/pause/save.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_disconnect_button
+  x = 9
+  width = 42
+  action = addtexture
+  actionid = a113c5ab-c39e-4bef-8cfc-5dbb13ba84371706109318846
+  y = 5
+  height = 45
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = Save & Quit
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_disconnect_button
+  x = 0
+  width = 60
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 00597200-4d44-4232-ac54-36c9955f35d11706109392546
+  y = 57
+  alignment = centered
+  height = 13
+}
+
+customization {
+  path = resources/icones/pause/lan.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_lan_button
+  x = 1
+  width = 22
+  action = addtexture
+  actionid = 93051d78-c238-4179-8c96-05b93357915d1706109432091
+  y = 2
+  height = 17
+}
+
+customization {
+  path = resources/icones/pause/statistics.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_stats_button
+  x = 1
+  width = 22
+  action = addtexture
+  actionid = e5cfbdd3-b6e0-432b-a04b-0deea1be0dce1706109484174
+  y = 3
+  height = 15
+}
+
+customization {
+  path = resources/icones/pause/forge.png
+  orientation = element
+  orientation_element = vanillabtn:398354
+  x = 0
+  width = 24
+  action = addtexture
+  actionid = 56e461dc-6860-4ff8-a12b-9ea560b45f5e1706109907735
+  y = 0
+  height = 24
+}
+
+customization {
+  path = resources/icones/pause/advancements.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 12
+  width = 37
+  action = addtexture
+  actionid = 2189328a-2eda-4ea1-9b09-a72318ce86e81706110019693
+  y = 6
+  height = 47
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = Advancements
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 0
+  width = 60
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f94929fe-ef4a-4cb1-8eb3-0c076d9943bc1706110039111
+  y = 59
+  alignment = centered
+  height = 13
+}
+
+customization {
+  path = resources/icones/pause/options.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_options_button
+  x = 8
+  width = 45
+  action = addtexture
+  actionid = 36a2682c-d779-46de-9168-1ac309838cb11706110142653
+  y = 7
+  height = 45
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = Options
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_options_button
+  x = 0
+  width = 60
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0ab1a5dc-6896-4509-b1e0-cb31772996091706110160788
+  y = 58
+  alignment = centered
+  height = 17
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = false
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 8de157f4-6fd8-426d-bc5b-c6e1810b2b2f1706113641464
+  playername = NOXX
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = element
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/ef155c7262b58733f9344f79a70c9fa8ac8358bb22131e4791f55d5bf7b1e4fa
+  crouching = false
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 110
+  width = 18
+  parrot_left_shoulder = false
+  y = 22
+  parrot = true
+}
+
